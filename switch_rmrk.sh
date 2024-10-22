@@ -59,7 +59,7 @@ script="$script_dir/refresh_rmrk.sh"
 
 # Execute the source command
 if [ "$usb" = true ]; then
-    source $script -u -n $ipv6 -c $config -k $known_hosts
+    source $script -u -c $config -k $known_hosts
 else;
     source $script -n $ipv6 -c $config -k $known_hosts
 fi

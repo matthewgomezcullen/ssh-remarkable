@@ -142,5 +142,5 @@ if [ -z "$prev_ip" ]; then
 else
 	# Replace the previous IP address in known_hosts and config with the new IP address
 	sed -i '' "s/$prev_ip/$new_ip/g" $config
-	sed -i '' "s/^$prev_ip/$prev_ip/" "$known_hosts"
+	sed -i '' "s/^$prev_ip/$new_ip/" "$known_hosts"
 fi
