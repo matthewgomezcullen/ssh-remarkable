@@ -1,6 +1,6 @@
 # ssh-remarkable-refresh
 
-*Note: I have discontinued this project, as the user may use the IPv6 address, which is typically static, to SSH to their reMarkable instead. I set `$REMARKABLE_IPV6` to this address, and I use this script only to switch my environmental variables and configurations to the new address (using the `-n` flag). To easily swap between the USB address and IPv6 address, I've added a script under `switch_remarkable_ip.sh`. I expect this script to be more useful, but I'll leave the code for reference.*
+*Note: I have archived this project, as the user may use the IPv6 address, which is typically static, to SSH to their reMarkable instead. I set `$REMARKABLE_IPV6` to this address, and I use this script only to switch my environmental variables and configurations to the new address (using the `-n` flag). To easily swap between the USB address and IPv6 address, I've added a script under `switch_remarkable_ip.sh`. I expect this script to be more useful, but I'll leave the code for reference.*
 
 This repository provides a script to update the IP address in the SSH config file and the SSH private key configuration on the user's laptop. The script identifies the IP address on the local network via the tablet's MAC address.
 
